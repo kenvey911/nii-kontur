@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#11130f">
+    <meta
+      name="description"
+      content="НИИ «Контур» — закрытый полевой научный комплекс. Исследования на границе известного."
+    >
+    <title>НИИ «Контур» — полевой научный комплекс</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <div class="topline">
+      <div class="container topline__inner">
+        <p><span class="status-dot" aria-hidden="true"></span> КАНАЛ ЗАЩИЩЁН</p>
+        <p class="topline__location">СЕВЕРНЫЙ СЕКТОР · 68° 14′ 03″ N</p>
+        <a href="#request">ДОСТУП ПО ПРОПУСКАМ <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="НИИ Контур — на главную">
+          <svg class="brand__mark" viewBox="0 0 42 42" aria-hidden="true">
+            <path d="M21 2.5 39.5 13v16L21 39.5 2.5 29V13L21 2.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M13 29V13h4l8 11V13h4v16h-4l-8-11v11h-4Z" fill="currentColor"/>
+          </svg>
+          <span class="brand__text"><strong>КОНТУР</strong><small>НАУЧНЫЙ КОМПЛЕКС</small></span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="primary-nav" aria-label="Основная навигация">
+          <a href="#complex">КОМПЛЕКС</a>
+          <a href="#sectors">СЕКТОРЫ</a>
+          <a href="#protocol">ПРОТОКОЛ</a>
+          <a class="site-nav__access" href="#request">ЗАПРОСИТЬ ДОСТУП <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img
+          class="hero__image"
+          src="assets/lab-corridor.svg"
+          alt="Пустой коридор исследовательского комплекса с техническим освещением"
+          fetchpriority="high"
+        >
+        <div class="hero__shade" aria-hidden="true"></div>
+        <div class="container hero__content">
+          <p class="eyebrow"><span class="eyebrow__line"></span> НАУЧНО-ИССЛЕДОВАТЕЛЬСКИЙ ИНСТИТУТ · 04 / 17</p>
+          <h1 id="hero-title">Здесь начинается<br>неизвестное<span>.</span></h1>
+          <p class="hero__lead">
+            Закрытый полевой комплекс для тех, кто ищет ответы за пределами привычных протоколов.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#complex">ИЗУЧИТЬ КОМПЛЕКС <span aria-hidden="true">↘</span></a>
+            <a class="button button--text" href="#request">ПОДАТЬ ЗАПРОС <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero__coordinates" aria-hidden="true">68°14′03″N / 33°05′41″E</div>
+        <div class="hero__index" aria-hidden="true"><span>01</span> — 04</div>
+        <a class="hero__scroll" href="#complex"><span></span> ЛИСТАЙТЕ ДАЛЬШЕ</a>
+      </section>
+
+      <section class="briefing section" id="complex" aria-labelledby="briefing-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="eyebrow__line"></span> 01 / ОБЪЕКТ</p>
+            <span class="section-heading__note">ДОПУСК: УРОВЕНЬ 02</span>
+          </div>
+          <div class="briefing__grid">
+            <div class="briefing__main">
+              <h2 class="section-title" id="briefing-title">Мы изучаем то,<br>что нельзя объяснить.</h2>
+              <p class="briefing__copy">
+                «Контур» — автономный исследовательский комплекс на границе северного сектора.
+                Наша команда работает с аномальными материалами, анализирует среду и документирует
+                явления, оставшиеся за пределами открытой науки.
+              </p>
+              <a class="text-link" href="#protocol">НАШИ ПРИНЦИПЫ <span aria-hidden="true">→</span></a>
+            </div>
+            <aside class="telemetry" aria-label="Состояние комплекса">
+              <div class="telemetry__header">
+                <span>СВОДКА ОБЪЕКТА</span>
+                <span class="telemetry__signal"><i></i> ПЕРЕДАЧА</span>
+              </div>
+              <dl class="telemetry__list">
+                <div><dt>КООРДИНАТЫ</dt><dd>68°14′03″ N</dd></div>
+                <div><dt>РЕЖИМ</dt><dd>ШТАТНЫЙ</dd></div>
+                <div><dt>НАБЛЮДЕНИЕ</dt><dd>АКТИВНО</dd></div>
+                <div><dt>ПОСЛЕДНИЙ ОТЧЁТ</dt><dd>14.10.2026</dd></div>
+              </dl>
+              <div class="telemetry__footer"><span>СИГНАЛ</span><div class="signal-bars" aria-label="Сигнал: 4 из 5"><i></i><i></i><i></i><i></i><i></i></div></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="sectors section" id="sectors" aria-labelledby="sectors-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="eyebrow__line"></span> 02 / ИНФРАСТРУКТУРА</p>
+            <span class="section-heading__note">СХЕМА ОБЪЕКТА · РЕДАКЦИЯ 04.2</span>
+          </div>
+          <div class="sectors__intro">
+            <h2 class="section-title" id="sectors-title">Каждая зона —<br>своя задача.</h2>
+            <p>Три независимых сектора. Единая система контроля.<br>Перемещение — только по уровню допуска.</p>
+          </div>
+
+          <div class="sectors__grid">
+            <figure class="site-map">
+              <img src="assets/sector-map.svg" alt="Схема комплекса: лабораторный, полевой и архивный секторы">
+              <figcaption><span>СХЕМА 01</span> / ВНУТРЕННИЙ ПЕРИМЕТР</figcaption>
+            </figure>
+            <div class="sector-list">
+              <article class="sector-card">
+                <span class="sector-card__number">01</span>
+                <div><h3>Лабораторный блок</h3><p>Анализ образцов и работа с материалами неизвестного происхождения.</p></div>
+                <span class="sector-card__access">ДОСТУП: II</span>
+              </article>
+              <article class="sector-card">
+                <span class="sector-card__number">02</span>
+                <div><h3>Полевой периметр</h3><p>Наблюдение за средой и сбор данных за границами комплекса.</p></div>
+                <span class="sector-card__access">ДОСТУП: III</span>
+              </article>
+              <article class="sector-card">
+                <span class="sector-card__number">03</span>
+                <div><h3>Архив наблюдений</h3><p>Закрытые отчёты, журнал экспедиций и результаты исследований.</p></div>
+                <span class="sector-card__access">ДОСТУП: I</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="protocol section" id="protocol" aria-labelledby="protocol-title">
+        <div class="container protocol__grid">
+          <div class="protocol__intro">
+            <p class="eyebrow"><span class="eyebrow__line"></span> 03 / ПОРЯДОК РАБОТЫ</p>
+            <h2 class="section-title" id="protocol-title">Сначала протокол.<br>Потом — неизвестное.</h2>
+            <p>Внутри периметра нет мелочей. Каждый участник проходит инструктаж и отвечает за свою зону работ.</p>
+          </div>
+          <ol class="protocol-list">
+            <li><span class="protocol-list__number">01</span><div><h3>Регистрация</h3><p>Укажите специализацию и цель визита. Заявки рассматриваются руководителем направления.</p></div><span class="protocol-list__mark">/</span></li>
+            <li><span class="protocol-list__number">02</span><div><h3>Инструктаж</h3><p>Ознакомьтесь с картой доступа, правилами связи и процедурами объекта.</p></div><span class="protocol-list__mark">/</span></li>
+            <li><span class="protocol-list__number">03</span><div><h3>Работа в секторе</h3><p>Действуйте только в рамках согласованного задания. Фиксируйте каждое наблюдение.</p></div><span class="protocol-list__mark">✓</span></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="request section" id="request" aria-labelledby="request-title">
+        <div class="container request__grid">
+          <div class="request__intro">
+            <p class="eyebrow"><span class="eyebrow__line"></span> 04 / СВЯЗЬ</p>
+            <h2 class="section-title" id="request-title">Ваш следующий<br>шаг — за периметр.</h2>
+            <p>Расскажите о своей специализации. Если ваш профиль подходит, мы свяжемся по защищённому каналу.</p>
+            <div class="request__note"><span class="status-dot" aria-hidden="true"></span> ПРИЁМ ЗАПРОСОВ ОТКРЫТ</div>
+          </div>
+          <form class="request-form">
+            <div class="form-field">
+              <label for="applicant-name">ИМЯ ИЛИ ПОЗЫВНОЙ <span>*</span></label>
+              <input id="applicant-name" name="name" type="text" placeholder="Например, «Север»" autocomplete="name" minlength="2" required>
+            </div>
+            <div class="form-field">
+              <label for="applicant-email">ЗАЩИЩЁННЫЙ КАНАЛ СВЯЗИ <span>*</span></label>
+              <input id="applicant-email" name="email" type="email" placeholder="name@example.com" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label for="applicant-specialty">СПЕЦИАЛИЗАЦИЯ</label>
+              <select id="applicant-specialty" name="specialty">
+                <option value="" selected>Выберите направление</option>
+                <option value="research">Исследования и аналитика</option>
+                <option value="fieldwork">Полевые наблюдения</option>
+                <option value="engineering">Инженерное обеспечение</option>
+                <option value="other">Другое</option>
+              </select>
+            </div>
+            <label class="form-consent" for="applicant-consent">
+              <input id="applicant-consent" name="consent" type="checkbox" required>
+              <span>Согласен на обработку данных, необходимых для рассмотрения запроса.</span>
+            </label>
+            <button class="button button--primary request-form__submit" type="submit">ПЕРЕДАТЬ ЗАПРОС <span aria-hidden="true">↗</span></button>
+            <p class="form-note">* ОБЯЗАТЕЛЬНЫЕ ПОЛЯ. ДАННЫЕ НЕ ПЕРЕДАЮТСЯ ЗА ПРЕДЕЛЫ ОБЪЕКТА.</p>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__main">
+        <a class="brand brand--footer" href="#top" aria-label="КОНТУР — наверх">
+          <svg class="brand__mark" viewBox="0 0 42 42" aria-hidden="true">
+            <path d="M21 2.5 39.5 13v16L21 39.5 2.5 29V13L21 2.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M13 29V13h4l8 11V13h4v16h-4l-8-11v11h-4Z" fill="currentColor"/>
+          </svg>
+          <span class="brand__text"><strong>КОНТУР</strong><small>НАУЧНЫЙ КОМПЛЕКС</small></span>
+        </a>
+        <p>СОБЛЮДАЙТЕ ПРОТОКОЛ.<br>ДОВЕРЯЙТЕ ДАННЫМ.</p>
+        <a class="footer__top" href="#top">В НАЧАЛО <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="container footer__bottom">
+        <span>© 2026 НИИ «КОНТУР». УЧЕБНЫЙ ПРОЕКТ.</span>
+        <span>ДОКУМЕНТ 04 / ВЕРСИЯ 1.0</span>
+      </div>
+    </footer>
+  </body>
+</html>
